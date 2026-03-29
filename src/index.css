@@ -278,6 +278,8 @@ body {
         }
 
         .masked-container {
+            @apply absolute bottom-0 left-1/2 -translate-x-1/2 w-full;
+
             h2 {
                 @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
             }
